@@ -1,0 +1,122 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	padding-bottom: 90px;
+}
+
+.header-wrapper, .footer {
+	min-height: 90px;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+	min-width: 450px;
+}
+
+/* Header*/
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+/* Content */
+.content-title {
+	font-size: 1.75em;
+}
+
+/* Connect */
+.connect-links {
+	max-width: 400px;
+}
+
+.connect-links a img {
+	height: 62px;
+	width: 62px;
+}
+
+/* Footer */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-width: 450px;
+	background-color: #333333;
+	text-align: center;
+}
+
+.footer h6 {
+	line-height: 90px;
+	margin: 0;
+	color: #FFF;
+}
+
+
+/* About Page */
+.about-body  img {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.about-body > div {
+	padding: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+/* Portfolio Page*/
+.port-block {
+	margin: 20px 0px;
+}
+
+.port-block > a {
+	position: relative;
+	display: block;
+	height: 100%;
+}
+
+.port-block > a > img {
+	width: 100%;
+}
+
+.port-block > div { 
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding-right: 30px;
+	text-align: center;
+}
+
+.port-block > div > h4 {
+	background-color: #333333;
+	color: #FFF;
+	line-height: 40px;
+}
+
+/* Contact Page */
+#contact-name,
+#contact-email,
+#contact-message {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px 0px 20px 0px;
+	padding: 8px;
+}
+
+#contact-message {
+	height: 200px;
+}
+
+#contact-submit {
+	border: none;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+#contact-form > label {
+	font-size: inherit;
+}
